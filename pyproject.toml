@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "dailgt"
 version = "0.0.1"
 authors = [
-  { name="Abhishek Samlodia", email="asamlodia@egmail.com" },
+  { name="Abhishek Samlodia", email="asamlodia@gmail.com" },
 ]
 description = "A simple python package for data analysis, curve fitting and plotting physics simulation data."
 readme = "README.md"
