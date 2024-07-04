@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: danalysis
+Version: 0.0.1
+Summary: A simple python package for data analysis, curve fitting and plotting physics simulation data.
+Author-email: Abhishek Samlodia <asamlodia@egmail.com>
+Project-URL: Homepage, https://github.com/abhisheksamlodia/danalysis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# danalysis
+A simple python package for data analysis, curve fitting and plotting physics simulation data.

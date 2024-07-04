@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/dailgt.egg-info/PKG-INFO
+src/dailgt.egg-info/SOURCES.txt
+src/dailgt.egg-info/dependency_links.txt
+src/dailgt.egg-info/top_level.txt
+src/plots/__init__.py
+src/plots/scatter2d/__init__.py
+src/plots/scatter2d/bestfit.py
+src/plots/scatter2d/effamp.py
+src/plots/scatter2d/effmass.py
+src/plots/scatter2d/line.py
+src/plots/timeseries/__init__.py
+src/stats/__init__.py
+src/stats/jacknife.py
