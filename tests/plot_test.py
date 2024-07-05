@@ -7,10 +7,12 @@ yerrors = [data[:,3]]
 #yerrors = []
 xmin = 65
 xmax = 4100
+ymin = data[0,2] - data[0,3]*1.25 
+ymax = data[0,2] + data[0,3]*1.25
 labels = ["data"]
 title = "Jack-Knife Error Analysis"
 xlabel = "Number of Jack-Knife Bins"
 ylabel = "Jack-Knife Errorbar"
 filename = "tests/plot_test.pdf"
 
-line.plot(xdata, ydata, yerrors, xmin, xmax, labels, title, xlabel, ylabel, filename)
+line.plot(xdata, ydata, yerrors, xmin, xmax, ymin, ymax, labels, title, xlabel, ylabel, filename)

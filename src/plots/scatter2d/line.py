@@ -18,7 +18,7 @@ y_formatter = ScalarFormatter(useOffset=False)
 import seaborn as sns
 sns.set_context("talk")
 
-def plot(xdata,  ydata, yerror, xmin, xmax, labels, title, labelx, labely, filename):
+def plot(xdata,  ydata, yerror, xmin, xmax, ymin, ymax, labels, title, labelx, labely, filename):
     """
     args:
         xdata (list of 1-dimensional numpy array of floats) -> list of multiple datasets for x-axis
@@ -58,6 +58,7 @@ def plot(xdata,  ydata, yerror, xmin, xmax, labels, title, labelx, labely, filen
         plt.yticks(fontsize=25)
         plt.title(title, fontsize=32)
         plt.xlim(xmin,xmax)
+        plt.ylim(ymin,ymax)
         plt.tight_layout()
         plt.savefig(filename)
         plt.show()
