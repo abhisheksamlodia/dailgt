@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: dailgt
-Version: 0.0.1
+Version: 0.0.2
 Summary: A simple python package for data analysis, curve fitting and plotting physics simulation data.
-Author-email: Abhishek Samlodia <asamlodia@egmail.com>
+Author-email: Abhishek Samlodia <asamlodia@gmail.com>
 Project-URL: Homepage, https://github.com/abhisheksamlodia/danalysis
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
