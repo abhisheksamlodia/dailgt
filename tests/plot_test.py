@@ -2,8 +2,9 @@ from plots.scatter2d import line
 import numpy as np
 data = np.loadtxt("tests/plot_test.txt")
 xdata = [data[:,0]]
-ydata = [data[:,3]]
-yerrors = []
+ydata = [data[:,2]]
+yerrors = [data[:,3]]
+#yerrors = []
 xmin = 65
 xmax = 4100
 labels = ["data"]

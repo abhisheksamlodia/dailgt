@@ -45,8 +45,8 @@ def plot(xdata,  ydata, yerror, xmin, xmax, labels, title, labelx, labely, filen
                 ax.plot(x, y, "--o", label = labels[i])
         elif len(yerror) == len(xdata):
             for i in range(len(xdata)):
-                x, y = xdata[i], ydata[i]
-                ax.errorbar(x, y, yerror, "--o", label = labels[i])
+                x, y, yerr = xdata[i], ydata[i], yerror[i]
+                ax.errorbar(x, y, yerr, fmt = "--o", label = labels[i])
         else:
             print("Error! mismatch in the number of datasets and number of errorbar dataset")
             sys.exit(1)
